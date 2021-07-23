@@ -10,8 +10,14 @@
 
 
 <body>
-
+<input type="button" value="누르지마" onclick="alert('누'),alert('르'),alert('지'),alert('말'),alert('랬'),alert('잖'),alert('아'),alert('!'),alert('!!'),alert('!!!'),alert('!!!!')">
 <style>
+
+@media(max-width:800px){
+    div{
+      display:none;
+    }
+}
 
 h1{
   color : orange;
@@ -44,11 +50,11 @@ li{
 
   <h1>ChamZero</h1>
   <input type="button" value="dark" onclick="
-    document.querySelector('body').style.backgroundColor='black';
+    document.querySelector('body').style.backgroundColor='darkgray';
     document.querySelector('body').style.color='white';">
   <input type="button" value="light" onclick="
       document.querySelector('body').style.backgroundColor='white';
-      document.querySelector('body').style.color='black';">
+      document.querySelector('body').style.color='darkgray';">
 
 
 
